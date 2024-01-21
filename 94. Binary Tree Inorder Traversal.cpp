@@ -12,7 +12,6 @@
 class Solution {
 public:
     void inorder(TreeNode* root, vector<int> & res){
-
         if(root != nullptr){
             inorder(root->left,res);
             res.push_back(root->val);
